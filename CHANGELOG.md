@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [v1.9.1](https://github.com/zenstruck/browser/releases/tag/v1.9.1)
+
+November 5th, 2024 - [v1.9.0...v1.9.1](https://github.com/zenstruck/browser/compare/v1.9.0...v1.9.1)
+
+* 53bbc83 minor: unpack Foundry 2 proxies (#160) by @kbond
+
 ## [v1.9.0](https://github.com/zenstruck/browser/releases/tag/v1.9.0)
 
 October 20th, 2024 - [v1.8.1...v1.9.0](https://github.com/zenstruck/browser/compare/v1.8.1...v1.9.0)
