@@ -22,7 +22,7 @@ use Zenstruck\Browser\Session\Driver\BrowserKitDriver;
 use Zenstruck\Callback\Parameter;
 use Zenstruck\Foundry\Factory;
 use Zenstruck\Foundry\Persistence\Proxy;
-use Zenstruck\Foundry\Proxy As LegacyProxy;
+use Zenstruck\Foundry\Proxy as LegacyProxy;
 
 /**
  * @author Kevin Bond <kevinbond@gmail.com>
