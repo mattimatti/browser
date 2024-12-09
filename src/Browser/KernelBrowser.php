@@ -132,7 +132,7 @@ class KernelBrowser extends Browser
      *
      * @return static
      */
-    public function actingAs(object $user, ?string $firewall = null): self
+    public function actingAs(object $user, ?string $firewallContext = null): self
     {
         if ($user instanceof Factory) { // @phpstan-ignore-line
             trigger_deprecation('zenstruck/browser', '1.9', 'Passing a Factory to actingAs() is deprecated, pass the created object instead.');
@@ -151,7 +151,7 @@ class KernelBrowser extends Browser
             throw new \LogicException(\sprintf('%s() requires the user be an instance of %s.', __METHOD__, UserInterface::class));
         }
 
-        $this->client()->loginUser(...\array_filter([$user, $firewall]));
+        $this->client()->loginUser(...\array_filter([$user, $firewallContext]));
 
         return $this;
     }
